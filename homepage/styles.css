@@ -1,0 +1,99 @@
+body{
+    background-image: url("https://wallpaperaccess.com/full/5922137.png");
+    background-size: 480px 900px, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 0px, 0px 0px;
+    height: 100vh;
+}
+
+.nav-link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.nav-link:hover{
+    background-color: #f2f2f2;
+    border-radius: 18px;
+}
+
+
+.homeintro{
+    margin: 55px 90px;
+}
+
+#name{
+    font-size: 40px;
+    font-family:"Lucida Console", monospace;
+}
+
+#intro{
+    font-size: 25px;
+    font-family: "Courier New", monospace;
+}
+
+#icons{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2px;
+}
+
+.icons{
+    display: inline;
+    padding-right: 15px;
+}
+
+@media (min-width: 900px) {
+    body{
+        background-image: url("https://wallpaperaccess.com/full/5922137.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0px 0px, 0px 0px;
+        height: 100vh;
+    }
+
+    .nav-link{
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+    }
+
+    .nav-link:hover{
+        background-color: #f2f2f2;
+        border-radius: 18px;
+    }
+
+
+    .homeintro{
+        margin: 120px 250px;
+    }
+
+    #name{
+        font-size: 60px;
+        font-family:"Lucida Console", monospace;
+    }
+
+    #intro{
+        font-size: 30px;
+        font-family: "Courier New", monospace;
+    }
+
+    #icons{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .icons{
+        display: inline;
+        padding-right: 15px;
+    }
+}
+

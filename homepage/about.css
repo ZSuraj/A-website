@@ -1,0 +1,49 @@
+body {
+    background-color: #f8f8f8;
+    background-image: url("https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e7ab4842c9596d555f88d6e_Gradien.png");
+    background-position: 0px 0px, 0px 0px;
+    background-size: 100%, auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Pitchsans Regular', sans-serif;
+}
+
+h1{
+  font-family:"Lucida Console", monospace;
+  font-size: 40px;
+}
+
+div {
+  font-family:"Courier New", monospace;
+  font-size: 25px;
+}
+
+#about {
+  margin:30px 20px;
+}
+
+@media (min-width: 900px) {
+  body {
+    background-color: #f8f8f8;
+    background-image: url("https://uploads-ssl.webflow.com/5e2520252e290c852ed89624/5e7ab4842c9596d555f88d6e_Gradien.png");
+    background-position: 0px 0px, 0px 0px;
+    background-size: 100%, auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Pitchsans Regular', sans-serif;
+  }
+
+  h1{
+    font-family:"Lucida Console", monospace;
+    font-size: 90px;
+  }
+
+  div {
+    font-family:"Courier New", monospace;
+    font-size: 25px;
+  }
+
+  #about {
+    margin:30px 250px;
+  }
+}

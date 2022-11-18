@@ -1,0 +1,40 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/white-faded-gradient-background-vector-with-orange-border_53876-128313.jpg?w=2000");
+    background-size: 480px 900px, auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0px 0px, 0px 0px;
+    font-family: 'Pitchsans Regular', sans-serif;
+}
+
+#contact{
+    margin: 20px 30px;
+}
+
+#inputAddress{
+    resize: none;
+}
+
+@media (min-width: 900px) {
+    body{
+        background-image: url("https://img.freepik.com/free-vector/white-faded-gradient-background-vector-with-orange-border_53876-128313.jpg?w=2000");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 0px 0px, 0px 0px;
+        font-family: 'Pitchsans Regular', sans-serif;
+    }
+
+    .input-group{
+        width:520px;
+    }
+
+    #contact{
+        margin:40px 100px;
+    }
+
+    #inputAddress{
+        resize: none;
+    }
+}
+
